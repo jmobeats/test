@@ -1,0 +1,78 @@
+
+body {
+    font-family: "Comic Sans MS", cursive, fantasy;
+    background: radial-gradient(circle at top, green, black);
+    color: white;
+    text-shadow: 1px 1px 5px hotpink;
+    animation: bgPulse 8s infinite alternate;
+    background-image:url("../assets/img/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: aqua;
+    background-color: gray;
+}
+.common{
+    /* border: 5px solid black border; */
+    position: absolute;
+}
+.nav{ 
+    position: relative;
+    float: right;
+    font-size: 75%;
+}
+.footer{
+position: fixed;   
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 50%;
+    font-style: italic;
+    background-color: aqua;
+    text-align: center;
+}
+.header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: -1;
+}
+.content{
+    top: 26px;
+    left: 0px;
+    right: 0px;
+    bottom: 30px;
+}
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px); /* Adjusted to leave room for header/footer */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.center-image img {
+    max-width: 80%;
+    height: auto;
+    border: 5px solid hotpink;
+    box-shadow: 0 0 20px cyan;
+    transition: transform 0.3s ease-in-out;
+}
+
+.center-image img:hover {
+    transform: scale(1.1);
+    border-color: lime;
+}
+body {
+    background-image: url("img/Milk_and_Cookies.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+    color: white;
+    font-family: "Comic Sans MS", cursive, fantasy;
+    text-shadow: 1px 1px 4px black;
+}
